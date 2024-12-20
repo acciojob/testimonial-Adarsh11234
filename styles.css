@@ -1,1 +1,33 @@
-/*  your css code here. If applicable */
+     body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+        }
+
+        .testimonials-container {
+            padding: 40px;
+            background-color: #f5f5f5;
+        }
+
+        .testimonial {
+            padding: 20px;
+            border: 1px solid #ddd;
+            background-color: #ffffff;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .testimonial-text {
+            margin: 0;
+            font-size: 16px;
+            color: #333;
+        }
+
+        .testimonial-author {
+            text-align: right;
+            font-style: italic;
+            margin-top: 10px;
+            color: #555;
+        }
